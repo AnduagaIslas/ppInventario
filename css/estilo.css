@@ -1,0 +1,134 @@
+body{
+	
+	margin:0px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	min-width:1000px;
+	background: #263238;
+
+
+}
+header{
+	margin:auto;
+	padding:10px;
+	font-size:30px;
+	width:500px;
+	text-align:center;
+	margin-top:20px;
+}
+section{
+	margin-top:20px;	
+}
+section table tr td input{
+	width:90%;
+	height:35px;
+	outline:none;
+	font-size:14px;
+}
+.registros{
+	margin:auto;
+	width:1000px;
+	margin-top:10px;
+	height:auto;
+
+}
+.estilotabla{
+		margin-left:80px;
+		margin-right: 80px;
+}
+.tabla{
+	margin-left:50px;
+	background-color: #C1C1C1;
+}
+.formulario table tr td{
+	padding:10px;
+}
+.formulario table tr td input{
+	width:100%;
+	outline:none;
+}
+.formulario table tr td select{
+	width:100%;
+	height:30px;
+	outline:none;
+}
+.bien{
+	background-color:#3CBE34;
+	text-align:center;
+	font-size:14px;
+	color:#FFF;
+	padding:5px;
+}
+.menu
+{
+	list-style: none;
+	line-height: 42px;
+	margin: 5em 2em;
+	padding-left: 0;
+	width: 15em;
+}
+.menu a
+{
+	color: #EBEBEB;
+	display: block;
+	transition-delay: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 100%;
+
+}
+.menu li 
+{
+	box-shadow: 3px 0 rgba(255,255,255,.2) inset;
+	margin-bottom: 5px;
+	padding-left: 1.5em;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	position: relative;
+
+}
+.menu li:hover 
+{
+	box-shadow: 15em 0 rgba(255,255,255,.2) inset;
+
+
+}
+.titulo
+{
+	color: #EBEBEB;
+}
+.table-hover tbody tr:hover > td {
+  background-color: #78909C;
+  color: #FFFFFF;
+}
+body ul li:hover .children{
+	display: block;
+	width: 100%;
+	position: relative;
+
+}
+body ul li .children{
+display: none;
+z-index: 1000;
+}
+body ul li .children li{
+	display: block;
+	padding-left: .3em;
+
+}
+body ul li .children a{
+	display: block;
+	padding-left: 0em;
+	
+}
+
+tr:nth-child(even) {
+	background-color: #ECEFF1;
+}
+.blue{
+	color: #000000;
+}
+a:hover{
+    color: #FFFFFF;
+}
+
